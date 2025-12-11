@@ -11,6 +11,17 @@
         .note { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 4px; color: #856404; margin-bottom: 20px; }
     </style>
 </head>
+    <script>
+    function toggleMenu() {
+        var navLinks = document.getElementById("navLinks");
+        if (navLinks.style.display === "flex") {
+            navLinks.style.display = "none";
+        } else {
+            navLinks.style.display = "flex";
+        }
+    }
+</script>
+</body>
 <body>
     <header>
         <nav>
@@ -74,4 +85,5 @@
         <p>Tous droits réservés © 2024</p>
     </footer>
 </body>
+
 </html>
